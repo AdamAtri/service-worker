@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ServiceWorkerDemo</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest/manifest.json">
+    <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#10637a">
+    <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+    <meta name="msapplication-config" content="/images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#3e6945">
+
+    <style media="screen">
+      * {
+        font-family: "Coda" "Roboto" "Mono" monospace;
+      }
+    </style>
+    <link rel="stylesheet" href="/css/style.css">
+
+  </head>
+  <body>
+    <h1>ServiceWorkerDemo</h1>
+    <section id="images">
+      <img src="/images/tits.jpg">
+      <img src="/images/hot.jpg">
+      <img src="/images/big-naturals.jpg">
+    </section>
+
+    <section id="results"></section>
+    <!-- <script type="text/javascript" src='using-async.js'></script> -->
+    <script type="text/javascript" src='fetchAPItest.js'></script>
+
+    <!--  SERVICE WORKER SETUP !!!! -->
+    <script type="text/javascript" src='/service-worker/service-worker-registration.js'></script>
+  </body>
+</html>

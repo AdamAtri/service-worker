@@ -1,0 +1,28 @@
+{
+  "name": "Mother Function",
+  "icons": [
+      {
+          "src": "/images/favicons/android-chrome-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+      },
+      {
+          "src": "/images/favicons/android-chrome-256x256.png",
+          "sizes": "256x256",
+          "type": "image/png"
+      }
+  ],
+  "theme_color": "#3e6945",
+  "background_color": "#3e6945",
+  "display": "standalone",
+  "start_url": "/",
+  "orientation": "portrait-primary",
+  "dir": "ltr",
+  "lang": "en-US",
+  "description": "Service Worker to PWA. Pretty Cool",
+  "scope": "/",
+  "serviceworker": {
+    "src": "/service-worker/service-worker-registration.js",
+    "scope": "/"
+  }
+}
